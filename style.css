@@ -1,0 +1,51 @@
+.gameBox{
+    position: relative;
+    /* margin: auto;
+    width: fit-content;
+    margin-top: 100px; */
+}
+.scoreBoard{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 305px;
+    height: 50px;
+}
+#score{
+    margin-left: 20px;
+}
+
+#btnStart{
+    left: 100px;
+    top:50%;
+    background-color: orange;
+    width: fit-content;
+    font-size: 2rem;
+    height: 50px;
+    position: absolute;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px 8px;
+
+}
+#btnReStart{
+    left: 100px;
+    top:50%;
+    background-color: orange;
+    width: fit-content;
+    font-size: 2rem;
+    height: 50px;
+    position: absolute;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px 8px;
+}
+h1{
+    width: 300px;
+    text-align: center;
+    color: orange;
+}

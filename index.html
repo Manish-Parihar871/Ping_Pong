@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Ponk</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="gameBox">
+        <div class="scoreBoard">
+            <h2>Score : </h2><h2 id="score">0</h2>
+        </div>
+        <canvas id="canvas" width="300" height="400" style="border: 2px solid black; margin:auto"></canvas>
+        <button  id="btnStart" onclick="gameStart()">Start</button>
+        <button id="btnReStart" onclick="gameReStart()">Restart</button>
+    </div>
+    <h1>Touch Left Or Right On Game Canvas Screen to move Slider</h1>
+    <script src="script.js"></script>
+</body>
+</html>
